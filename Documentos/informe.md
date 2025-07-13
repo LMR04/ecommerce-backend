@@ -48,7 +48,7 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: register
 
 **La tabla usuarios antes**
-![](./img/user-before.png)
+![userBefore](./img/user-before.png)
 
 #### Registro de un user
 
@@ -63,7 +63,7 @@ He utilizado una imagen de postgres en Docker
 ![](./img/registerSuperadmin.png)
 
 **La tabla usuarios despues**
-![](./img/usuario-after.png)
+![userAfter](./img/usuario-after.png)
 
 ### ENDPOINT: login
 
@@ -90,14 +90,14 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: crear producto
 
 **La tabla productos antes**
-![](./img/producto-before.png)
+![productBefore](./img/producto-before.png)
 
 #### Creacion de un producto
 
 ![](./img/crearProducto.png)
 
 **La tabla productos despues**
-![](./img/producto-after.png)
+![productoAfter](./img/producto-after.png)
 
 ### ENDPOINT: listar productos
 
@@ -110,7 +110,7 @@ He utilizado una imagen de postgres en Docker
 ![](./img/crearProducto.png)
 
 **La tabla productos despues**
-![](./img/producto-after-update.png)
+![productAfterUpdate](./img/producto-after-update.png)
 
 ### ENDPOINT: eliminar producto
 
@@ -121,17 +121,17 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: crear orden
 
 **La tabla orden antes**
-![](./img/orden-before.png)
+![orderBefore](./img/orden-before.png)
 
 **La tabla producto-orden antes**
-![](./img/orden-producto-before.png)
+![productOrderBefore](./img/orden-producto-before.png)
 
 #### Creacion de una orden
 
 ![](./img/crearOrden.png)
 
 **La tabla orden despues**
-![](./img/orden-after.png)
+![orderAfter](./img/orden-after.png)
 
 **La tabla producto-orden despues**
-![](./img/orden-producto-after.png)
+![productOrderAfter](./img/orden-producto-after.png)
