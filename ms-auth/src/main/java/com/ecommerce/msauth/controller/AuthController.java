@@ -7,12 +7,14 @@ import com.ecommerce.msauth.aggregates.response.ValidateResponse;
 import com.ecommerce.msauth.entity.Usuario;
 import com.ecommerce.msauth.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
+@RefreshScope
 public class AuthController {
 
     private final AuthenticationService authenticationService;

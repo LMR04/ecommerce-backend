@@ -8,7 +8,10 @@ public class Constants {
     public static final String CLAVE_Enabled = "isEnabled";
     public static final String REFRESH = "refresh";
     public static final String ACCESS = "access";
-    public static final String ENDPOINTS_PERMIT = "/auth/**";
+    public static final String[] ENDPOINTS_PERMIT = {
+            "/auth/**",
+            "/actuator/**"
+    };
     public static final String ENDPOINTS_USER = "/test/user";
     public static final String ENDPOINTS_ADMIN = "/test/admin";
     public static final String ENDPOINTS_SUPERADMIN = "/test/superadmin";
