@@ -5,7 +5,7 @@
 He utilizado una imagen de postgres en Docker
 
 **Query de creacion de la BD**
-![BD](/img/createDB.png)
+![BD](./img/createDB.png)
 
 ## Eureka Server
 
