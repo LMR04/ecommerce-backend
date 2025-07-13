@@ -5,6 +5,7 @@
 He utilizado una imagen de postgres en Docker
 
 **Query de creacion de la BD**
+
 ![BD](./img/createDB.png)
 
 ## Eureka Server
@@ -48,6 +49,7 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: register
 
 **La tabla usuarios antes**
+
 ![userBefore](./img/user-before.png)
 
 #### Registro de un user
@@ -63,6 +65,7 @@ He utilizado una imagen de postgres en Docker
 ![](./img/registerSuperadmin.png)
 
 **La tabla usuarios despues**
+
 ![userAfter](./img/usuario-after.png)
 
 ### ENDPOINT: login
@@ -90,6 +93,7 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: crear producto
 
 **La tabla productos antes**
+
 ![productBefore](./img/producto-before.png)
 
 #### Creacion de un producto
@@ -97,6 +101,7 @@ He utilizado una imagen de postgres en Docker
 ![](./img/crearProducto.png)
 
 **La tabla productos despues**
+
 ![productoAfter](./img/producto-after.png)
 
 ### ENDPOINT: listar productos
@@ -110,6 +115,7 @@ He utilizado una imagen de postgres en Docker
 ![](./img/crearProducto.png)
 
 **La tabla productos despues**
+
 ![productAfterUpdate](./img/producto-after-update.png)
 
 ### ENDPOINT: eliminar producto
@@ -121,9 +127,11 @@ He utilizado una imagen de postgres en Docker
 ### ENDPOINT: crear orden
 
 **La tabla orden antes**
+
 ![orderBefore](./img/orden-before.png)
 
 **La tabla producto-orden antes**
+
 ![productOrderBefore](./img/orden-producto-before.png)
 
 #### Creacion de una orden
@@ -131,7 +139,9 @@ He utilizado una imagen de postgres en Docker
 ![](./img/crearOrden.png)
 
 **La tabla orden despues**
+
 ![orderAfter](./img/orden-after.png)
 
 **La tabla producto-orden despues**
+
 ![productOrderAfter](./img/orden-producto-after.png)
